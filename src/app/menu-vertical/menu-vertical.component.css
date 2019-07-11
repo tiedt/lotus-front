@@ -1,0 +1,28 @@
+@media (min-width: 1200px) {
+    .header-container {
+        background-color: #f4f4f4;
+        bottom: 0;
+        left: 0;
+        padding-top: 190px;
+        position: fixed;
+        top: 0;
+        width: 90px;
+        z-index: 4;
+        transition: width 0.2s
+    }
+    .logo {
+        background: #f4f4f4;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 90px;
+        z-index: 1;
+        height: 90px;
+        line-height: 90px;
+        transition: all 0.2s
+    }
+    .logo img {
+        height: 90px;
+        display: block;
+    }
+}

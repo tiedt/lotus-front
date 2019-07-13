@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuVerticalComponent } from './menu-vertical/menu-vertical.component';
+import { MenuHorizontalComponent } from './menu-horizontal/menu-horizontal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuVerticalComponent
+    MenuVerticalComponent,
+    MenuHorizontalComponent
   ],
   imports: [
     BrowserModule,
